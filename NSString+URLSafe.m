@@ -14,7 +14,7 @@
 #pragma mark - common set of dangerous characters
 + (NSCharacterSet*)dangerousCharacters
 {
-    NSCharacterSet *dangerousChars = [NSCharacterSet characterSetWithCharactersInString:@"&$+,/:;=?.@ ^[]{}|#%~<>*"];
+    NSCharacterSet *dangerousChars = [NSCharacterSet characterSetWithCharactersInString:@"&$+,/:;'=?.@ ^[]{}|#%~<>*"];
     return dangerousChars;
 }
 
