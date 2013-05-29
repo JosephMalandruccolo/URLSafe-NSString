@@ -25,6 +25,6 @@ Public API
 Example
 ===========
 
-`SString *myDangerousString = @"Moe's Cantina";` 
+`NSString *myDangerousString = @"Moe's Cantina";` 
 `NSString *mySafeString = [NSString makeUrlSafe:myDangerousString byReplacingWith:@"+"];`  
 `NSLog(@"%@", mySafeString); 	//	prints "Moe+s+Cantina" to the console`  
