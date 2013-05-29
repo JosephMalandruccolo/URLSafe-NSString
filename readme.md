@@ -1,7 +1,7 @@
 NSString+URLSafe
 ===========
 
-Easy conversion of NSString into a format that is safe to include in a URL
+Easy conversion of NSString into a format that is safe to include in a URL  
 Great for adding an NSString as a parameter to an API call
 
 
